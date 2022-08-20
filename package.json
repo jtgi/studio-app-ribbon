@@ -1,0 +1,42 @@
+{
+  "name": "writer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@manifoldxyz/studio-app-sdk": "0.x",
+    "@manifoldxyz/studio-app-sdk-react": "0.x",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11"
+  ],
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^14.1.1",
+    "@types/jest": "^27.0.3",
+    "@types/node": "^17.0.21",
+    "@types/react": "^18.0.6",
+    "@types/react-dom": "^18.0.2",
+    "@types/react-redux": "^7.1.20",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
+  },
+  "homepage": "."
+}
