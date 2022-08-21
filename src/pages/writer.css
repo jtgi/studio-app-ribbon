@@ -1,0 +1,21 @@
+.editor-toolbar {
+  border: none;
+  right: 0;
+  z-index: 5;
+  top: -15px;
+  opacity: 0.1;
+  transition: opacity 30s;
+}
+
+.editor-toolbar:hover {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.EasyMDEContainer {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.EasyMDEContainer .CodeMirror {
+  border: none;
+}

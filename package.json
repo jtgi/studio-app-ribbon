@@ -5,10 +5,16 @@
   "dependencies": {
     "@manifoldxyz/studio-app-sdk": "0.x",
     "@manifoldxyz/studio-app-sdk-react": "0.x",
+    "@uiw/react-md-editor": "^3.17.2",
+    "easymde": "^2.16.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-hot-toast": "^2.3.0",
+    "react-query": "^3.39.2",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-simplemde-editor": "^5.0.2",
+    "showdown": "^2.1.0",
     "typescript": "^4.7.4"
   },
   "scripts": {
@@ -26,6 +32,7 @@
   ],
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.2",
+    "@tailwindcss/typography": "^0.5.4",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^14.1.1",
@@ -34,6 +41,7 @@
     "@types/react": "^18.0.6",
     "@types/react-dom": "^18.0.2",
     "@types/react-redux": "^7.1.20",
+    "@types/showdown": "^2.0.0",
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.0.24"
