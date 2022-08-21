@@ -1,2 +1,2 @@
-# Studio App Writer
+# Ribbon
 Write markdown, deploy it to arweave
