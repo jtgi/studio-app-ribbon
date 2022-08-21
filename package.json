@@ -1,11 +1,10 @@
 {
-  "name": "writer",
+  "name": "ribbon",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@manifoldxyz/studio-app-sdk": "0.x",
     "@manifoldxyz/studio-app-sdk-react": "0.x",
-    "@uiw/react-md-editor": "^3.17.2",
     "easymde": "^2.16.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -18,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-app-rewired build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -43,6 +42,8 @@
     "@types/showdown": "^2.0.0",
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
     "tailwindcss": "^3.0.24"
   },
   "homepage": "."
