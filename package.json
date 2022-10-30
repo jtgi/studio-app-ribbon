@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@manifoldxyz/studio-app-sdk": "0.x",
-    "@manifoldxyz/studio-app-sdk-react": "0.x",
+    "@manifoldxyz/studio-app-sdk": "*",
+    "@manifoldxyz/studio-app-sdk-react": "*",
     "easymde": "^2.16.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",

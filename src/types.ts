@@ -1,4 +1,4 @@
-export type MyInstanceData = {
-  name: string
-  content: string
+export type Memo = {
+  live: boolean;
+  content: string;
 }

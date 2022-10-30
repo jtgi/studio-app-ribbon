@@ -1864,14 +1864,14 @@
   resolved "https://registry.npmjs.org/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz"
   integrity sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==
 
-"@manifoldxyz/studio-app-sdk-react@0.x":
-  version "0.1.17"
-  resolved "https://registry.npmjs.org/@manifoldxyz/studio-app-sdk-react/-/studio-app-sdk-react-0.1.17.tgz"
-  integrity sha512-SHUUR3PsoKufFSG66iD1EHowJgQORcDWu6IVhf/QXbY8KFclddrDO1O5h0iw0PXE+VTun4xtGahoxZcQNGTXhA==
+"@manifoldxyz/studio-app-sdk-react@*":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@manifoldxyz/studio-app-sdk-react/-/studio-app-sdk-react-0.2.0.tgz#ef2ae92df85ac01bf618f68194287f8e54ad6efd"
+  integrity sha512-k5r5z1XaIzTGAXKpQPuChgz4HeBEkrBULVyoO0zSao/LxkYhewLe5U8i+7ezie9AL4/KOGGhaYfdB3qyTdOV6A==
   dependencies:
     "@headlessui/react" "^1.6.6"
     "@heroicons/react" "^1.0.6"
-    "@manifoldxyz/studio-app-sdk" "^0.1.23"
+    "@manifoldxyz/studio-app-sdk" "^0.3.0"
     dotenv "^16.0.1"
     ethers "^5.6.8"
     formik "^2.2.9"
@@ -1879,14 +1879,14 @@
     uuid "^8.3.2"
     zustand "^4.0.0"
 
-"@manifoldxyz/studio-app-sdk@0.x", "@manifoldxyz/studio-app-sdk@^0.1.23":
-  version "0.1.23"
-  resolved "https://registry.npmjs.org/@manifoldxyz/studio-app-sdk/-/studio-app-sdk-0.1.23.tgz"
-  integrity sha512-XQYamoHJQybtodnbhYgKdalU9pxRHdyeBCfnjCxtjxuyL7pGUaw1FyuEAgnMNMZHkfShgJMtWQdb+AtelWPDJg==
+"@manifoldxyz/studio-app-sdk@*", "@manifoldxyz/studio-app-sdk@^0.3.0":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@manifoldxyz/studio-app-sdk/-/studio-app-sdk-0.3.1.tgz#036f67f65bdd3e28799c9dc537132fab39df1c24"
+  integrity sha512-hJpE26V4rJxg2+HuAiJzjurfRr6sBI0QBue8uM5wkNwnCiw8WOXvEfTldANiX0iI4i3RCSmTh8U5abaNUmy9uw==
   dependencies:
     dotenv "^16.0.1"
     ethers "^5.6.8"
-    nanoevents "^7.0.1"
+    nanoevents "^6.0.0"
     uuid "^8.3.2"
     zod "^3.18.0"
 
@@ -6772,10 +6772,10 @@ nano-time@1.0.0:
   dependencies:
     big-integer "^1.6.16"
 
-nanoevents@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.npmjs.org/nanoevents/-/nanoevents-7.0.1.tgz"
-  integrity sha512-o6lpKiCxLeijK4hgsqfR6CNToPyRU3keKyyI6uwuHRvpRTbZ0wXw51WRgyldVugZqoJfkGFrjrIenYH3bfEO3Q==
+nanoevents@^6.0.0:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/nanoevents/-/nanoevents-6.0.2.tgz#3824031c7beab754b04ae5a17936c0fc7b6a183c"
+  integrity sha512-FRS2otuFcPPYDPYViNWQ42+1iZqbXydinkRHTHFxrF4a1CpBfmydR9zkI44WSXAXCyPrkcGtPk5CnpW6Y3lFKQ==
 
 nanoid@^3.3.4:
   version "3.3.4"
